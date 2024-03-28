@@ -1,0 +1,109 @@
+h1 {
+    font-size:2.6rem;
+    font-family: sans-serif !important;
+
+}
+.profile-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card_col {
+    margin:15px;
+    padding:10px;
+}
+
+.project_card_col {
+    /* padding-top: 50px !important;
+    padding-bottom: 50px !important; */
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+    margin-bottom:50px;
+
+}
+.project_image {
+    max-height:500px;
+    object-fit : contain;
+}
+.project-slide {
+    height: calc(100vh - 300px);
+    object-fit:contain;
+}
+.carousel-caption {
+    background-color: rgba(255,255,255, 0.8);
+}
+.card_shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .4s; /* Animation */
+    /* width: 13rem; */
+}
+.card_shadow:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.card_shadow:hover .skill_image{
+    opacity: .3;
+}
+.card_shadow:hover .skill_text{
+    display:block;
+}
+
+.skill_image {
+    height:200px;
+    object-fit : contain;
+    padding:15px;
+}
+
+.skill_text {
+    font-size:0.9rem;
+    padding:10px;
+    text-align: left;
+    display:none;
+}
+
+section {
+    padding-top:100px;
+    text-align:center;
+}
+.navbar {
+    position: fixed;
+    top: 30px; /* Adjust top margin as needed */
+    left: 40px; /* Adjust left margin as needed */
+    z-index: 999; /* Adjust z-index as needed */
+    cursor: pointer;
+}
+.offcanvas{
+    --bs-offcanvas-width: 200px;
+}
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    justify-content: center;
+}
+
+a.active {
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+h1 {
+    padding-bottom: 15px
+}
+
+.resume_page {
+    font-size:3rem;
+    position: relative;
+    top: 50%;
+    cursor:pointer;  
+}
+
+.footer h3 {
+    font-size: .9rem;
+    font-style: italic;
+    user-select: none;
+}
+.footer {
+    margin-bottom: 25px;
+}
