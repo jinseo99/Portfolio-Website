@@ -18,22 +18,37 @@ function Projects(){
     
     const masonryRef = useRef(null);
 
+    // useEffect(() => {
+    //     const masonry = new Masonry(masonryRef.current, {
+    //         itemSelector: '.masonry-item',
+    //         columnWidth: '.grid-sizer',
+    //         percentPosition: true,
+    //     });
+
+    //     // Layout Masonry when component mounts
+    //     masonry.layout();
+
+    //     // Destroy Masonry when component unmounts
+    //     return () => {
+    //         masonry.destroy();
+    //     };
+    // }, []);
     useEffect(() => {
-        const masonry = new Masonry(masonryRef.current, {
-            itemSelector: '.masonry-item',
-            columnWidth: '.grid-sizer',
-            percentPosition: true,
-        });
-
-        // Layout Masonry when component mounts
-        masonry.layout();
-
-        // Destroy Masonry when component unmounts
+        const handleWindowLoad = () => {
+            const masonry = new Masonry(masonryRef.current, {
+                itemSelector: '.masonry-item',
+                columnWidth: '.grid-sizer',
+                percentPosition: true,
+            });
+        };
+        window.addEventListener('load', handleWindowLoad);
+    
+        // Clean up function
         return () => {
-            masonry.destroy();
+        window.removeEventListener('load', handleWindowLoad);
         };
     }, []);
-
+      
     return (
         <section id="projects">
             <Container>
