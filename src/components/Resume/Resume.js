@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import pdf from "../../assets/Resume LC.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs} from "react-pdf";
-import Carousel from 'react-bootstrap/Carousel';
 import { GrNext,GrPrevious } from "react-icons/gr";
 
 import "react-pdf/dist/esm/Page/TextLayer.css";

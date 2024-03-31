@@ -5,7 +5,7 @@ import VideoPlayer from "./VideoPlayer";
 
 function ProjectModal(props) {
     const {title,preview,video} = props;
-    console.log("DEBUG VIDEO",video);
+    // console.log("DEBUG VIDEO",video);
   return (
     <Modal
       {...props}

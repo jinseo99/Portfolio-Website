@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 
 const VideoPlayer = (props) => {
   const videoRef = useRef(null); // Reference to the <video> element

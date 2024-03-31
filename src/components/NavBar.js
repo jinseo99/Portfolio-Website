@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { HiMenu } from "react-icons/hi";
 import { content } from "../Content";
-import { createElement } from "react";
 import Stack from 'react-bootstrap/Stack';
 import { IconContext } from "react-icons";
 import Footer from "../components/Footer"

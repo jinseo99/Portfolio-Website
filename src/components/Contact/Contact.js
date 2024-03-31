@@ -18,8 +18,7 @@ const Contact = () => {
     emailjs
       .sendForm(
     //   'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
-        'service_hdgh4fc', 'template_smlvmx7', form.current, '-5DrcQUoy9pUiAkuR'
-
+        process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {

@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer"
 import "./style.css";
 const App = () => {
+
     return (
         <div className="">
             <NavBar/>

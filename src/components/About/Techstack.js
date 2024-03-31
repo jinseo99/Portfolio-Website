@@ -2,7 +2,7 @@ import { Row, Col } from "react-bootstrap";
 import { content } from "../../Content";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import React, { useState } from 'react';
+import React from 'react';
 
 function Techstack(){
     const { techstack } = content;
