@@ -50,7 +50,7 @@ function Projects(){
     }, []);
       
     return (
-        <section id="projects">
+        <section id="projects" className="page-section">
             <Container>
                 <h1>
                 <strong>Projects</strong>

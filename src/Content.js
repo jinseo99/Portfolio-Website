@@ -248,7 +248,7 @@ export const content = {
             description: "Stock Market Research Tool for analyzing stock prices using historic data with indicators such as Volume, RSI and MACD. Leveraged Alphavantage for downloading historic stock data for 1-min chart and leveraged yfinance for downloading daily stock data.",
             source: "https://github.com/jinseo99/Stock-Market-Research-Tool",
             image: stock1,
-            video: true,
+            video: "stock_demo.mp4",
         },
         {
             name: "Site Select",

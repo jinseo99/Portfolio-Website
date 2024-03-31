@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../assets/Resume NPG.pdf";
+import pdf from "../../assets/Resume LC.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs} from "react-pdf";
 import Carousel from 'react-bootstrap/Carousel';
@@ -36,7 +36,7 @@ function Resume() {
 
 
   return (
-    <section id="resume">
+    <section id="resume" className="page-section">
         <Container fluid className="resume-section">
             <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button

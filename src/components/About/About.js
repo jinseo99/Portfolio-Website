@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack"
 function About(){
     return (
-        <section id="about">
+        <section id="about" className="page-section">
 
             <Container>
 

@@ -35,7 +35,7 @@ function ProjectModal(props) {
                 </Carousel.Item>
             ))}
         </Carousel>}
-        {video && <VideoPlayer />}
+        {video && <VideoPlayer filename={video}/>}
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary"  onClick={props.onHide}>Close</Button>

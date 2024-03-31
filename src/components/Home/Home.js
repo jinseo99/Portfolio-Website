@@ -6,7 +6,7 @@ function Home() {
     const { home } = content;
 
     return (
-      <section id="home">
+      <section id="home" className="page-section">
               {/* <Col md={5}>  
                 <img
                   src={home.image}
